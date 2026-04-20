@@ -209,10 +209,10 @@ if __name__ == "__main__":
 
     # flowy_vid = FlowyGradientVideo(*resolutions[res], num_frames=num_frames)
     # flowy_vid.fractal_noise_vid_1()
-    # flowy_vid.save_mp4("fractal_noise_vid_1.mp4")
-    # flowy_vid.save_png("fractal_noise_vid_1.png")
+    # flowy_vid.save_mp4("outputs/fractal_noise_vid_1.mp4")
+    # flowy_vid.save_png("outputs/fractal_noise_vid_1.png")
 
     flowy_vid = FlowyGradientVideo(*resolutions[res], num_frames=num_frames)
     flowy_vid.fractal_noise_vid_2()
-    # flowy_vid.save_mp4("fractal_noise_vid_2.mp4")
-    flowy_vid.save_png("fractal_noise_vid_2.png")
+    # flowy_vid.save_mp4("outputs/fractal_noise_vid_2.mp4")
+    flowy_vid.save_png("outputs/fractal_noise_vid_2.png")
